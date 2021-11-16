@@ -1,0 +1,25 @@
+import random
+
+
+
+suma = 0
+
+liczbagaugan = int(input('Podaj liczbe: '))
+
+
+liczby = [3, 2]
+
+
+for i in range(liczbagaugan):
+    liczby.append(random.randint(0, 100))
+
+for num in liczby:
+    suma = suma+num
+
+print(liczby)
+
+
+
+    
+
+
