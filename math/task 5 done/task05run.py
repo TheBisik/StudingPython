@@ -61,7 +61,7 @@ elif delta >= 0:
     wynix2 = round(wynix2, 2)
     print(""" Wynik działania 
 
-    x1 = -b - √Δ / 2 * a
+    x2 = -b - √Δ / 2 * a
 
     """, wynix2)
 else:
